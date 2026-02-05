@@ -1,10 +1,11 @@
 {
   "name": "discord-music-bot",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Discord müzik botu",
   "main": "voicebot.js",
   "scripts": {
-    "start": "node voicebot.js"
+    "start": "node voicebot.js",
+    "check": "node --check voicebot.js"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +15,6 @@
     "@discordjs/voice": "^0.16.1",
     "discord.js": "^14.14.1",
     "dotenv": "^16.4.5",
-    "play-dl": "^1.9.7",
-    "youtube-dl-exec": "^2.5.7"
+    "play-dl": "^1.9.7"
   }
 }
